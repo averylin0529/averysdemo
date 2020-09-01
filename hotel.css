@@ -230,7 +230,7 @@ nav{
 header 
 ********/
 header{
-    background:url(../hotel-img/hotel1.jpg) ;
+    background:url(https://images.pexels.com/photos/2549018/pexels-photo-2549018.jpeg?cs=srgb&dl=pexels-asad-photo-maldives-2549018.jpg&fm=jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -243,15 +243,15 @@ header{
     padding: 20px;
     display:inline-block;
     position: absolute;
-    top:85%;
-    left:65%;
+    top:30%;
+    left:10%;
     /* 以左上方為基準點 */
-    transform: translate(-10%,-70%);
+    transform: translate(-10%,-50%);
 }
 
 @media only screen and (max-width: 768px){
     .header-container{
-        top:80%;
+        top:50%;
         left:23%; 
     }
 }
